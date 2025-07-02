@@ -28,6 +28,9 @@ const TaskInput = () => {
 
   // When submitting check if we were editing a task or adding new task
   const handleSubmit = () => {
+    if(!dueDate){
+      alert("Select Due date for the task");
+    }
     // Entering dueDate is mandatory
     if (taskText.trim() && dueDate) {
       let dueDateString = dueDate.toLocaleString();
