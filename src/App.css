@@ -1,0 +1,93 @@
+/* Overall App Styles */
+.dark-theme{
+    background-color: #242424;
+}
+
+.light-theme{
+    background-color: #FBFDFC;
+}
+
+/* SideBar Styles */
+/* text-[#1B281B] hover:bg-[#35793729] hover:text-[#357937] */
+
+.light-theme-sidebar{
+    color: #1B281B;
+}
+
+.light-theme-sidebar:hover{
+    background-color: #35793729;
+    color: #357937;
+}
+
+.dark-theme-sidebar{
+    color: #E2E2E2;
+}
+
+.dark-theme-sidebar:hover{
+    background-color: #35793729;
+    color: #98E19B;
+}
+
+
+/* TaskDetailPanel Styles */
+/* flex items-center w-full px-4 py-3 border-b border-gray-200 text-gray-700 */
+
+.light-taskDetailButton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #7da07fa7;
+    color: #1B281B;
+    cursor: pointer;
+}
+
+.dark-taskDetailButton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #7da07fa7;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+.light-taskDetailButton:hover{
+    background-color: #35793729;
+    color: #357937;
+}
+
+.dark-taskDetailButton:hover{
+    background-color: #35793729;
+    color: #98E19B;
+}
+
+
+/* ScrollBar Styles */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #35793729;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #616161;
+  }
