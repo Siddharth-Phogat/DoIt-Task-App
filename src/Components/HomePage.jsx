@@ -12,6 +12,10 @@ const HomePage = () => {
   const { isSidebarOpen, isTaskDetailOpen, isThemeDark, isFilterTasksOpen } = useSelector((state) => state.ui);
 
   useEffect(() => {
+    alert('Please change you screen zoom to 75% for better functionality...');
+  }, []);
+
+  useEffect(() => {
     if (isThemeDark) {
       document.body.classList.add("dark-theme");
       document.body.classList.remove("light-theme");
