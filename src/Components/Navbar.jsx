@@ -17,6 +17,7 @@ import {
 import { searchTask } from "../slice/todoSlice"
 import { useSelector, useDispatch } from "react-redux";
 import { useState, useEffect } from "react";
+import appIcon from "../assets/IconDoItApp.png"
 
 export default function NavBar () {
   const dispatch = useDispatch();
@@ -65,7 +66,7 @@ export default function NavBar () {
             />
           </svg> */}
           <img
-            src={`src/assets/IconDoItApp.png`}
+            src={appIcon}
             alt="Profile"
             className="w-12 h-12 object-cover"
           />
