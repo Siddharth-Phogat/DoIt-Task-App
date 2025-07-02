@@ -22,9 +22,9 @@ DoIt is a modern and responsive task management web application built using **Re
 ## 📸 Screenshots
 
 > ![DoIt App Screenshot](public/Screenshot-01.png)
-> ![DoIt App Screenshot](public/Screenshot-01.png)
-> ![DoIt App Screenshot](public/Screenshot-01.png)
-> ![DoIt App Screenshot](public/Screenshot-01.png)
+> ![DoIt App Screenshot](public/Screenshot-02.png)
+> ![DoIt App Screenshot](public/Screenshot-03.png)
+> ![DoIt App Screenshot](public/Screenshot-04.png)
 
 ---
 
