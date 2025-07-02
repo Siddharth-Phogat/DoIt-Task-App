@@ -6,7 +6,7 @@ import {
   deleteTask,
 } from "../slice/todoSlice";
 import { toggleFilterList, toggleTaskDetail } from "../slice/uiSlice";
-import notasks from "../assets/noTasks.png"
+import notasks from "../assets/NoTasks.png"
 
 const FilterTask = () => {
   const { isTaskDetailOpen, isTodayTasksOpen, isImportantTasksOpen, isCompleteTasksOpen, isOverduetasksOpen, isThemeDark } = useSelector((state) => state.ui);
